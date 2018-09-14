@@ -15,7 +15,7 @@
     "browsersync-iis"
   ],
   "dependencies": {
-    "ssi": "^0.3.0"
+    "gulp-iis": "^1.0.0"
   },
   "author": "DuoYi",
   "license": "ISC",

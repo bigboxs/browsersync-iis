@@ -2,7 +2,7 @@ module.exports = function browserSyncSSI(opt) {
 
   'use strict';
 
-  var ssi = require('ssi');
+  var gulpiis = require('gulp-iis');
   var path = require('path');
   var fs = require('fs');
   var url = require('url');
@@ -27,7 +27,7 @@ module.exports = function browserSyncSSI(opt) {
       }
   }
 
-  var parser = new ssi(baseDir, baseDir, matcher);
+  var parser = new gulpiis(baseDir, baseDir, matcher);
 
   return function(req, res, next) {
 
