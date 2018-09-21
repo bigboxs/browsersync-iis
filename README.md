@@ -15,7 +15,7 @@ browserSync({
     middleware: iis({
       baseDir: __dirname + '/app',
       ext: '.shtml',
-      version: '1.0.0'
+      version: '1.0.1'
     })
   },
 });
